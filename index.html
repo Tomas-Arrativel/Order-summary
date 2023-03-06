@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/css.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main>
+      <article class="article">
+        <section class="article__img"></section>
+        <section class="article__info">
+          <h1 class="article__info-header">Order Summary</h1>
+          <p class="article__info-p">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="article__info-purchase">
+            <img src="images/icon-music.svg" alt="music icon" />
+            <p class="article__info-purchase-plan">
+              <span>Annual Plan</span>$59.99/year
+            </p>
+            <p class="article__info-purchase-change">Change</p>
+          </div>
+          <button class="article__info-btn">Proceed to Payment</button>
+          <p class="article__info-cancel">Cancel Order</p>
+        </section>
+      </article>
+
+      <article class="article article3 hidden">
+        <h2>Payment Successful!</h2>
+        <p>Thank you for buying here</p>
+        <button class="article3__btn">Buy again</button>
+      </article>
+
+      <article class="article article2 hidden">
+        <section>
+          <h2>UPS...</h2>
+          <p>You have cancelled your payment :\</p>
+          <button class="article2__btn">Try again</button>
+        </section>
+      </article>
+    </main>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
